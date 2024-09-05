@@ -1,3 +1,3 @@
 sudo apt install docker.io
 git clone https://github.com/bloer2013/python-docker && cd python-docker && docker build -t python-git-container .
-sudo docker run -it python-modules-container
+docker run -it --name domain-mapper-container python-git-container
